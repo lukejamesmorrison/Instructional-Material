@@ -136,6 +136,7 @@ To inherit or *extend* a parent class, we use the `<` in the class' definition. 
 ## Accessors
 
 ![lightspeed](https://media2.giphy.com/media/12haGO61oFZ28w/giphy.gif)
+
 Now by now you may have thought,"hmmm, but if I change the warp-speed cooefficent in the Millenium Falcon, would I have stranded a Princess in space?" The answer is **yes**, which is why there is no way the Millenium Falcon would allow that. Luckily, the Falcon is written Ruby...
 
 ```ruby

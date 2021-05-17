@@ -7,7 +7,7 @@ Luke Morrison - 12 May 2021
 
 ## For Studying
 
-1.  [Functions](/BasicOperations.md) TBC
+1.  [Functions](/Functions.md) TBC
 2.  [Data Structures](/DataStructures.md) TBC
 3.  [Classes and Objects](/ClassesAndObjects.md)
 4.  [Loops and Blocks](/Blocks.md) TBC
@@ -24,6 +24,8 @@ Luke Morrison - 12 May 2021
 ## Useful Resources
 
 Regular Expressions - https://regexr.com/
+
 RSpec - https://rspec.info/
+
 VS Code - https://code.visualstudio.com/
 
