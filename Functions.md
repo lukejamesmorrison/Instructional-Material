@@ -16,7 +16,7 @@ def hello_im_a_function(we, are, arguments=2)
     # code
 end
 ```
-A nearly universal way of function definition.  The function name is a descriptive string of characters and uses `()` to wrap comma-separated arguments. Almost all modern languages use this form. Note that an argument may have a default value making this argument option when called:
+A nearly universal way of function definition.  The function name is a descriptive string of characters and uses `()` to wrap comma-separated arguments. Almost all modern languages use this form. Note that an argument may have a default value making this argument optional when the function is called:
 
 ```ruby
 hello_im_a_function(we, are)
@@ -46,8 +46,23 @@ Even further towards the command line, this format allows multiple arguments to 
 
 You can both define and call all of these formats.
 
-[`TRY IT OUT`][try]
+[`TRY IT OUT`]("https://try.ruby-lang.org/")
 
+## Calling a Function
 
-[try]: "https://try.ruby-lang.org/"
+A function can be called in a similar way to how it is defined:
 
+```ruby
+secret_word = create_secret_word_from_string('super secret')
+```
+
+In an [Object](/ClassesAndObjects.md) context, you may access *methods* in the same way as functions but with one minor difference, the method is called *on* the object:
+
+```ruby
+require './lib/calculator.rb'
+
+calculator = Calculator.new
+
+# `add()` acts in the same way as a function.
+sum = calculator.add(1, 2) # => 3
+```

@@ -7,10 +7,10 @@ Luke Morrison - 12 May 2021
 
 ## For Studying
 
-1.  [Functions](/Functions.md) TBC
-2.  [Data Structures](/DataStructures.md) TBC
+1.  [Functions](/Functions.md)
+2.  [Data Types](/DataTypes.md)
 3.  [Classes and Objects](/ClassesAndObjects.md)
-4.  [Loops and Blocks](/Blocks.md) TBC
+4.  [Loops](/Loops.md) TBC
 5.  [Modules](/Modules.md) TBC
 6.  [Regular Expressions](/RegularExpressions.md) TBC
 7.  [Testing](/Testing.md)
@@ -19,7 +19,7 @@ Luke Morrison - 12 May 2021
 
 1.  Avengers Tracker - [Student](#) &middot; [Instructor](https://github.com/lukejamesmorrison/avengers-tracker)
 2.  Pig Latin Translator  - [Student](#) &middot; [Instructor](https://github.com/lukejamesmorrison/pig-latin-translator)
-2.  Hangman - [Student](#) &middot; [Instructor](#)
+<!-- 2.  Hangman - [Student](#) &middot; [Instructor](#) -->
 
 ## Useful Resources
 

@@ -2,6 +2,6 @@
 
 ## The Importance of Tinkering
 
-The best way to improve code writing is by...writing code. [`TRY IT OUT`][try]
+The best way to improve code writing is by...writing code.
 
-[try]: "https://try.ruby-lang.org/"
+[`TRY IT OUT`]("https://try.ruby-lang.org/")
