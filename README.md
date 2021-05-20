@@ -1,19 +1,17 @@
 # Ruby Introduction
-Luke Morrison - 12 May 2021
  
 ## What is Ruby?
 
-[Ruby](https://ruby-doc.com/) is a  dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. It is entirely object-oriented and is widely used across the web today - most commonly as part of the [Ruby on Rails](https://rubyonrails.org) framework.
+[Ruby](https://ruby-doc.com/) is a  dynamic, open-source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. It is entirely object-oriented and is widely used across the web today - most commonly as part of the [Ruby on Rails](https://rubyonrails.org) framework.
 
 ## For Studying
 
-1.  [Functions](/Functions.md)
-2.  [Data Types](/DataTypes.md)
+1.  [Data Types](/DataTypes.md)
+2.  [Functions](/Functions.md)
 3.  [Classes and Objects](/ClassesAndObjects.md)
-4.  [Loops](/Loops.md) TBC
-5.  [Modules](/Modules.md) TBC
-6.  [Regular Expressions](/RegularExpressions.md) TBC
-7.  [Testing](/Testing.md)
+4.  [Loops](/Loops.md)
+5.  [Regular Expressions](/RegularExpressions.md)
+6.  [Testing](/Testing.md)
 
 ## For Practice
 
@@ -23,9 +21,6 @@ Luke Morrison - 12 May 2021
 
 ## Useful Resources
 
-Regular Expressions - https://regexr.com/
-
-RSpec - https://rspec.info/
-
+Regular Expressions - https://regexr.com/<br>
+RSpec - https://rspec.info/<br>
 VS Code - https://code.visualstudio.com/
-

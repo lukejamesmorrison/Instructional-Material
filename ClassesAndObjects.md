@@ -1,5 +1,4 @@
 # Classes and Objects
-Luke Morrison - 12 May 2021
 
 [Back](/README.md)
 
@@ -22,8 +21,7 @@ class Car
     end
 
     def get_number_of_passengers()
-        num_passengers = @passengers.count
-        num_passengers
+        @passengers.count
     end
 end
 ```
@@ -49,7 +47,7 @@ To create a new object instance, you can use the `new` method on the class:
 
 Notice that the `Car` class expects one parameter, `colour`, when being created. The second parameter `number_of_seats` is optional as long as a default value has been defined.
 
-[`TRY IT OUT`]("https://try.ruby-lang.org/")
+[TRY IT OUT]("https://try.ruby-lang.org/")
 
 ## Accessing Properties (Class & Instance Variables)
 
@@ -75,7 +73,7 @@ my_car = Car.new('red')
 colour = my_car.colour # => 'red'
 ```
 
-[`TRY IT OUT`]("https://try.ruby-lang.org/")
+[TRY IT OUT]("https://try.ruby-lang.org/")
 
 ## *Doing Things* With Methods
 
@@ -131,13 +129,13 @@ The `super()` function essentially acts as a `new()` method, but is only applica
 
 To inherit or *extend* a parent class, we use the `<` in the class' definition. Don't forget to `require` your parent class at the top of the file.
 
-[`TRY IT OUT`]("https://try.ruby-lang.org/")
+[TRY IT OUT]("https://try.ruby-lang.org/")
 
 ## Accessors
 
 ![lightspeed](https://media2.giphy.com/media/12haGO61oFZ28w/giphy.gif)
 
-Now by now you may have thought,"hmmm, but if I change the warp-speed cooefficent in the Millenium Falcon, would I have stranded a Princess in space?" The answer is **yes**, which is why there is no way the Millenium Falcon would allow that. Luckily, the Falcon is written Ruby...
+Now by now you may have thought,"hmmm, but if I change the warp-speed constant in the Millenium Falcon, would I have stranded Han and Chewie in space?" The answer is **yes**, which is why there is no way the Millenium Falcon would allow that. Luckily, the Falcon is written Ruby...
 
 ```ruby
 class MilleniumFalcon < Spaceship
@@ -177,7 +175,7 @@ Trying to write to the Falcon without without an `attr_writer` or `attr_accessor
 
 Remember that accessors apply only to an object being read or written externally.  An object may change it's own properties freely, which leads us to...
 
-[`TRY IT OUT`]("https://try.ruby-lang.org/")
+[TRY IT OUT]("https://try.ruby-lang.org/")
 
 ## Getters and Setters
 
@@ -222,11 +220,11 @@ end
 
 Notice that if a value is passed outside of this acceptable range, the warp speed constant is not changed. Therefore, our setter allows us to more tightly control how a user may interact with our object. Obi-Wan can rest easy knowing our New Hope is alive due to rigorous software engineering.
 
-[`TRY IT OUT`]("https://try.ruby-lang.org/")
+[TRY IT OUT]("https://try.ruby-lang.org/")
 
 ## Yields and Blocks
 
-Sometimes, you may want an objects methods to be *extendible* or put another way, you wish to *yield* some functionality or data.  Let's look at an example:
+Sometimes, you may want an object's methods to be *extendible* or put another way, you wish to *yield* some functionality or data.  Let's look at an example:
 
 ```ruby
 class Person 
@@ -247,11 +245,9 @@ person.do_something_with_name do |name|
 end
 ```
 
-This is weird, soolet's walk through it.  First you will notice that the `do_somethingo_with_name` method yields the name property.  This means that we can insert our own logic into this method programatically, and the `name` property is name availble for use.
+This is weird, so let's walk through it.  First you will notice that the `do_something_with_name` method yields the name property.  This means that we can insert our own logic into this method programatically, and the `name` property is availble to use.
 
 When we call the `do_something_with_name` method, we are creating a `Block`.  You will see many applications of this syntax in [Loops](/Loops.md) but for now, just imagine that we are now going to decide what this function can do dynamically.  Using the `do` and `end` keywords, we are wrapping what is essentially a new function.  Notice that we are passing in `name` as a parameter, making it useful within the new function - this is accomplished by using the `yield()` function in the object's method definition.  Finally, we are printing a string containing the name we have made available through yielding. Pretty cool huh?
-
-
 
 ## Further Reading
 
