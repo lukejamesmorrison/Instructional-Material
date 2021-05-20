@@ -37,7 +37,7 @@ sum = add_values([1, 2, 3]) # => 6
 
 The `return` keyword can still be used, but most Ruby developers embrace the freedom of now needing it.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 #### The Minimalist
 ```ruby
@@ -47,7 +47,7 @@ end
 ```
 If your function doesn't require a function, then `()` are not required.  This seems like a perfect application when writing a [Getter](/ClassesAndObjects.md).
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 #### The Basher
 ```ruby
@@ -58,16 +58,16 @@ end
 
 Starting to look a little weird, this format is reminiscent of the command line syntax.  The argument is space separated from the function name.  If you are writing Ruby for interaction in the command line, this format helps keep your coding style more homogenous.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 #### The Purist
 ```ruby
 def hello_im_a_function we,are,arguments
 ```
 
-This format allows multiple arguments to be passed by using comma-separation.  Similar to [The Commander](#the-commander), this format aligns well with the command line.
+This format allows multiple arguments to be passed by using comma-separation.  Similar to [The Basher](#the-basher), this format aligns well with the command line.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 You can both define and call all of these formats.
 
@@ -90,4 +90,4 @@ calculator = Calculator.new
 sum = calculator.add(1, 2) # => 3
 ```
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)

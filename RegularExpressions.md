@@ -92,6 +92,6 @@ phone_number = matches[1] + matches[2] + matches[3] # => '1234567890'
 
 Tell the Customer Success team to stand down, no one is struggling with phone number inputs on your watch.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 

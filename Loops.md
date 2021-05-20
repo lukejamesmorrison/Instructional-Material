@@ -12,7 +12,7 @@ First, a very basic example though:
 end
 ```
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 Here we are using the `times` method on the Integer object.  This allows us to repeat the specified behaviour 3 times. But now let's set some conditions.  
 
@@ -32,7 +32,7 @@ print infinity_stones # => 6
 
 From the above example, our condition is tested before the loop is execute and must test `true` for the block to be executed.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ### Until
 
@@ -48,7 +48,7 @@ end
 print infinity_stones # => 6
 ```
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## While vs. Until
 
@@ -186,4 +186,4 @@ end
 
 Here we are only selecting the elements of an array who have a `team` *attribute* of `good`.  Remember that methods like `select` require a conditional statement to be defined inside their block. Select also has an `!` variant.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)

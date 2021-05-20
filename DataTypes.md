@@ -21,7 +21,7 @@ print "Your first name is: #{first_name}." # => Your first name is: Benjamin.
 
 Take the following string: ```1sgbv5sdgg```.  We need to figure out how long it is, and how many `g` it contains.  Now, visit the [String](https://ruby-doc.org/core-3.0.1/String.html) documentation and see if you can find the functions that can help with this.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Integer
 
@@ -49,7 +49,7 @@ Because all data types are objects in Ruby, we can use some cool built in functi
 2. Is 27 an even integer or an odd integer?
 3. How many digits does 1234 contain?
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Float
 
@@ -91,7 +91,7 @@ Some things to try:
 1. How would you return only the *unique* values in our lucky numbers array?
 2. How would you sort the lucky numbers from highest to lowest?
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 
 ## Hash
@@ -123,7 +123,7 @@ Some things to try:
 2.  How could we see if the above hash has a `created_at` key?
 
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Symbol
 
@@ -144,4 +144,4 @@ end
 
 With what you have learned, see if you can define a new key on the above `image_metadata` hash, and then access that value using symbol reference.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)

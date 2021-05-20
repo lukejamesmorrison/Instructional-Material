@@ -47,7 +47,7 @@ To create a new object instance, you can use the `new` method on the class:
 
 Notice that the `Car` class expects one parameter, `colour`, when being created. The second parameter `number_of_seats` is optional as long as a default value has been defined.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Accessing Properties (Class & Instance Variables)
 
@@ -73,7 +73,7 @@ my_car = Car.new('red')
 colour = my_car.colour # => 'red'
 ```
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## *Doing Things* With Methods
 
@@ -129,7 +129,7 @@ The `super()` function essentially acts as a `new()` method, but is only applica
 
 To inherit or *extend* a parent class, we use the `<` in the class' definition. Don't forget to `require` your parent class at the top of the file.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Accessors
 
@@ -175,7 +175,7 @@ Trying to write to the Falcon without without an `attr_writer` or `attr_accessor
 
 Remember that accessors apply only to an object being read or written externally.  An object may change it's own properties freely, which leads us to...
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Getters and Setters
 
@@ -220,7 +220,7 @@ end
 
 Notice that if a value is passed outside of this acceptable range, the warp speed constant is not changed. Therefore, our setter allows us to more tightly control how a user may interact with our object. Obi-Wan can rest easy knowing our New Hope is alive due to rigorous software engineering.
 
-[TRY IT OUT]("https://try.ruby-lang.org/")
+[TRY IT OUT](https://try.ruby-lang.org/)
 
 ## Yields and Blocks
 
