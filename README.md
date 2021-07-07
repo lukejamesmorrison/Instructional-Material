@@ -15,8 +15,8 @@
 
 ## For Practice
 
-1.  Avengers Tracker - [Student](#) &middot; [Instructor](https://github.com/lukejamesmorrison/avengers-tracker)
-2.  Pig Latin Translator  - [Student](#) &middot; [Instructor](https://github.com/lukejamesmorrison/pig-latin-translator)
+1.  Avengers Tracker - [Student](https://github.com/lukejamesmorrison/avengers-tracker-student) &middot; [Instructor](https://github.com/lukejamesmorrison/avengers-tracker)
+2.  Pig Latin Translator  - [Student](https://github.com/lukejamesmorrison/pig-latin-translator-student) &middot; [Instructor](https://github.com/lukejamesmorrison/pig-latin-translator)
 <!-- 2.  Hangman - [Student](#) &middot; [Instructor](#) -->
 
 ## Useful Resources
